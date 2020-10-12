@@ -55,4 +55,6 @@ LABO is a toolbox, a place for research and experimentation, thanks to the shari
 
 In this laboratory is born a cinema of craftsmen, autonomous and out of the commercial logics.
 
-![LaboBXL](lab.jpeg)
+<p align="center">
+  <img src="lab.jpeg" alt="Labo BXL"/>
+</p>
