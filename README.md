@@ -11,13 +11,40 @@
 - self-hosting
 - Team challenge :  `solo`
 
-## Mission objectives
+## The Mission
+
+### Full Stack Challenge
+
+Labo BXL
+
+Laboratory for processing and research around film.
+
+Created in February 2006, LABO is a place thought as a space for image creation/production. We work there on film - mainly super 8 and 16mm. Shooting, development, processing, transfer, transformations, tests.
+
+LABO is a toolbox, a place for research and experimentation, thanks to the sharing of knowledge and the exchange of know-how and practices.
+
+In this laboratory is born a cinema of craftsmen, autonomous and out of the commercial logics.
+
+<p align="center">
+  <img src="LaboBXL/images/lab.jpeg" alt="Labo BXL"/>
+</p>
 
 ### ui/ux prototyping
  
 - Figma
 - Adobe Color 
 - Font Forge 
+
+<p align="center">
+  <img src="LaboBXL/ref/ref1.png" alt="Labo BXL"/>
+</p>
+<p align="center">
+  <img src="LaboBXL/ref/ref2.png" alt="Labo BXL"/>
+</p>
+<p align="center">
+  <img src="LaboBXL/ref/ref3.png" alt="Labo BXL"/>
+</p>
+
  
 ### Frontend 
 
@@ -43,18 +70,6 @@
 
 - Git 
 
-## The Mission
+### Credits 
 
-Labo BXL
-
-Laboratory for processing and research around film.
-
-Created in February 2006, LABO is a place thought as a space for image creation/production. We work there on film - mainly super 8 and 16mm. Shooting, development, processing, transfer, transformations, tests.
-
-LABO is a toolbox, a place for research and experimentation, thanks to the sharing of knowledge and the exchange of know-how and practices.
-
-In this laboratory is born a cinema of craftsmen, autonomous and out of the commercial logics.
-
-<p align="center">
-  <img src="lab.jpeg" alt="Labo BXL"/>
-</p>
+- Done by [Thomas Depas](https://github.com/Thdepas) October 2020 - BeCode Web Developer training
