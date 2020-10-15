@@ -36,13 +36,11 @@ In this laboratory is born a cinema of craftsmen, autonomous and out of the comm
 - Font Forge 
 
 <p align="center">
-  <img src="LaboBXL/ref/ref1.png" alt="Labo BXL"/>
+  <img src="LaboBXL/public/ref/ref1.png" alt="Labo BXL"/>
 </p>
+
 <p align="center">
-  <img src="LaboBXL/ref/ref2.png" alt="Labo BXL"/>
-</p>
-<p align="center">
-  <img src="LaboBXL/ref/ref3.png" alt="Labo BXL"/>
+  <img src="LaboBXL/public/ref/figma.png" alt="Labo BXL"/>
 </p>
 
  
