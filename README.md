@@ -26,7 +26,7 @@ LABO is a toolbox, a place for research and experimentation, thanks to the shari
 In this laboratory is born a cinema of craftsmen, autonomous and out of the commercial logics.
 
 <p align="center">
-  <img src="LaboBXL/images/lab.jpeg" alt="Labo BXL"/>
+  <img src="LaboBXL/public/images/lab.jpeg" alt="Labo BXL"/>
 </p>
 
 ### ui/ux prototyping
