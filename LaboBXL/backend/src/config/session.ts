@@ -3,7 +3,7 @@ import { IN_PROD } from '.'
 
 const HALF_HOUR = 1000 * 60 * 30
 
-const { 
+export const  { 
     SESSION_SECRET = `keep this secret`,
     SESSION_NAME = `ano`,
     SESSION_IDLE_TIMEOUT = HALF_HOUR,
@@ -24,3 +24,4 @@ export const SESSION_OPTIONS: SessionOptions = {
     saveUninitialized: false
     
     }
+  
