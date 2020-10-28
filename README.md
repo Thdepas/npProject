@@ -61,7 +61,7 @@ In this laboratory is born a cinema of craftsmen, autonomous and out of the comm
 - Joi
 
 ### Api
-
+- Infinite scroll
 - Next Cloud 
 
 ### Versioning

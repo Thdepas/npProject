@@ -1,0 +1,16 @@
+{
+  "name": "labobxl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "up": "mkdir data -p && docker-compose up -d",
+    "postup": "npm run dev",
+    "stop": "docker-compose stop",
+    "down": "docker-compose down",
+    "dev": "npm run dev --prefix backend"
+  },
+  "author": "",
+  "license": "ISC"
+}
+ 
