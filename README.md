@@ -33,7 +33,6 @@ In this laboratory is born a cinema of craftsmen, autonomous and out of the comm
  
 - Figma
 - Adobe Color 
-- Font Forge 
 
 <p align="center">
   <img src="LaboBXL/frontend/public/ref/ref1.png" alt="Labo BXL"/>
@@ -43,13 +42,11 @@ In this laboratory is born a cinema of craftsmen, autonomous and out of the comm
   <img src="LaboBXL/frontend/public/ref/figma.png" alt="Labo BXL"/>
 </p>
 
- 
 ### Frontend 
 
 - Htm5
 - Css
 - Javascript
-- Chart.js
 - EJS
 
 ### Backend 
@@ -58,10 +55,15 @@ In this laboratory is born a cinema of craftsmen, autonomous and out of the comm
 - MongoDB
 - Redis
 - Express 
+- Express-session
 - Joi
 
 ### Api
+
+- Mongoose
+- Hapi
 - Infinite scroll
+- GraphQL Analytics
 - Next Cloud 
 
 ### Versioning
