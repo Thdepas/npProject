@@ -7,7 +7,7 @@ import { BadRequest } from "../errors";
 
 const router = Router();
 
-/*
+
 router.get("/register", (req, res) => {
   console.log(req.query);
 
@@ -23,9 +23,9 @@ router.get("/register", (req, res) => {
 </div>`);
 });
 
-*/
+
 router.post(
-  "/register",
+  "/register",guest, 
   catchAsync(async (req, res) => {
     await validate(registerSchema, req.body);
 
@@ -37,7 +37,7 @@ router.post(
       throw new BadRequest("Invalid email");
     }
 
-    const user = await User.create({
+        const user = await User.create({
       email,
       name,
       password,
