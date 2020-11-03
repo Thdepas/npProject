@@ -1,0 +1,27 @@
+#nav_links {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+   
+}
+a.nav-link {
+    color: #939598;
+}
+
+.nav_button{
+    position: absolute;
+    left: 77%;
+    margin:auto;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  section {
+    padding: 150px 0;
+  }
+  
