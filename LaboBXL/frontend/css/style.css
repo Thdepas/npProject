@@ -1,4 +1,8 @@
 
+#mainNav {
+  transition: top 0.2s;
+}
+
 a.nav-link {
     color: #000000;
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -69,8 +73,15 @@ a.nav-link {
     background-image: url('../public/images/carnet.jpg');
     background-size: cover;
     background-position: center;
+   /* animation : slide 2s 1 ease-in-out;
+    animation-fill-mode: forwards; */
   }
-  
+/*
+  @keyframes slide {
+    from {left: 0px}
+    to {left: 100px}
+  }
+*/
   .login-heading {
     font-weight: 300;
   }
