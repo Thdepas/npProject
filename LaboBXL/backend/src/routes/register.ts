@@ -7,37 +7,20 @@ import { BadRequest } from "../errors";
 
 const router = Router();
 
-
-router.get("/register", (req, res) => {
-  console.log(req.query);
-
-  res.send(`
-  <h3>Create New Account</h3>
-  <form method='post' action= '/register'">
-              <input name="name" class="form-control" placeholder="Name"required>
-              <input type="email" name="email" placeholder="Enter Email" required>
-              <input type="password" name="password" placeholder="Password" required>
-              <input type="password" name="passwordConfirmation" placeholder="Confirm Password" required>
-      <button type="submit" class="btn hvr-hover">Register</button>
-  </form>
-</div>`);
-});
-
-
 router.post(
-  "/register",guest, 
+  "/home",
+  guest,
   catchAsync(async (req, res) => {
     await validate(registerSchema, req.body);
 
     const { email, name, password } = req.body;
 
     const found = await User.exists({ email });
-    
     if (found) {
       throw new BadRequest("Invalid email");
     }
 
-        const user = await User.create({
+    const user = await User.create({
       email,
       name,
       password,

@@ -48,7 +48,9 @@ $ curl -v -X POST localhost:3000/register -H 'Content-Type: application/json' \
 $ curl -v -X POST localhost:3000/login -H 'Content-Type: application/json' \
 -d '{ "email": "thdepas@gmail.com", "password": "Secret12" }'
 ```
-
+```sh
+curl localhost:3000/home --cookie 'ano=s%3ANZYuYV7l3hw9yvvzPtr-kGikpwst0hTa.3BHnFdYTbP2WHEEq8BspsxbgPg3FHsLbLDyfKDOU9ng'
+```
 
 ## moongoose functions
 
@@ -64,8 +66,3 @@ remove a db_objec: findByIdAndRemove(id)
 remove all db_objec: deleteMany()
 
 ```
-
-
-
-
-

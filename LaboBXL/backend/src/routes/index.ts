@@ -1,3 +1,6 @@
 export { default as login } from "./login";
-export { default as views } from "./views";
 export { default as register } from "./register";
+export { default as home } from "./home";
+export { default as newsletter } from "./newsletter";
+
+

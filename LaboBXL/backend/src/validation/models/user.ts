@@ -18,4 +18,5 @@ const userSchema = new Schema(
 );
 
 const User = model<UserDocument>("User", userSchema);
+
 export default User;

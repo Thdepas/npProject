@@ -52,6 +52,59 @@ a.nav-link {
     
 }
 
+ 
+#wiki
+{ color:#F7DF1E;;
+background-color: #000000;
+font-family: 'Barlow Semi Condensed', sans-serif;
+text-align: justify;
+text-justify: inter-word;
+
+
+}
+
+#register {
+  background-color: #000000;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+.note
+{
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #F7DF1E , #000000);
+    color: rrgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 80px;
+}
+.form-content
+{
+    padding: 5%;
+    margin-bottom: 2%;
+}
+.form-control{
+    border-radius:1.5rem;
+}
+.Submit
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #F7DF1E;
+    color:  #000000;
+}
+
+.newsletter{
+  padding: auto;
+  height: auto;
+  border-radius: 2rem;
+}
+
 .footer {
    
     background-color: black;
@@ -70,7 +123,7 @@ a.nav-link {
   }
   
   .bg-image {
-    background-image: url('../public/images/carnet.jpg');
+    background-image: url('http://localhost:3000/static/images/carnet.jpg');
     background-size: cover;
     background-position: center;
    /* animation : slide 2s 1 ease-in-out;
@@ -153,7 +206,8 @@ a.nav-link {
     font-size: 12px;
     color: #777;
   }
-  
+
+
   /* Fallback for Edge
   -------------------------------------------------- */
   

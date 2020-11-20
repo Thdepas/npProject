@@ -1,8 +1,8 @@
 
 AOS.init();
 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
+let prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("mainNav").style.top = "0";

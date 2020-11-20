@@ -26,7 +26,7 @@ LABO is a toolbox, a place for research and experimentation, thanks to the shari
 In this laboratory is born a cinema of craftsmen, autonomous and out of the commercial logics.
 
 <p align="center">
-  <img src="LaboBXL/frontend/public/images/lab.jpeg" alt="Labo BXL"/>
+  <img src="LaboBXL/backend/src/public/images/lab.jpeg" alt="Labo BXL"/>
 </p>
 
 ### ui/ux prototyping
@@ -35,11 +35,11 @@ In this laboratory is born a cinema of craftsmen, autonomous and out of the comm
 - Adobe Color 
 
 <p align="center">
-  <img src="LaboBXL/frontend/public/ref/ref1.png" alt="Labo BXL"/>
+  <img src="LaboBXL/backend/src/public/ref/ref1.png" alt="Labo BXL"/>
 </p>
 
 <p align="center">
-  <img src="LaboBXL/frontend/public/ref/figma.png" alt="Labo BXL"/>
+  <img src="LaboBXL//backend/src/public/ref/figma.png" alt="Labo BXL"/>
 </p>
 
 ### Frontend 
@@ -47,6 +47,7 @@ In this laboratory is born a cinema of craftsmen, autonomous and out of the comm
 - Htm5
 - Css
 - Javascript
+- Bootstrap
 - EJS
 
 ### Backend 
@@ -55,16 +56,33 @@ In this laboratory is born a cinema of craftsmen, autonomous and out of the comm
 - MongoDB
 - Redis
 - Express 
-- Express-session
-- Joi
 
 ### Api
 
-- Mongoose
-- Hapi
-- Infinite scroll
-- GraphQL Analytics
-- Next Cloud 
+- Mailchimp
+- Web scrapping with Axios 
+- socket.io (pending)
+
+
+### Schema
+
+```ts
+interface User {
+  _id: ObjectId
+  name: string
+  email: string
+  password: string
+  verifiedAt: Date
+  createdAt: Date
+  updatedAt: Date
+}
+```
+### Features
+
+- [x] login/logout/register + session expiry
+- [x] MailChimp newsletter
+- [ ] email verification (`"Confirm your email"`)
+- [ ] password reset (`"Forgot password"`)
 
 ### Versioning
 

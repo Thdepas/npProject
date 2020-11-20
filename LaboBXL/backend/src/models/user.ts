@@ -57,6 +57,8 @@ userSchema.statics.hasValidVerificationUrl = (path: string, query: any) => {
   return timingSafeEqual(Buffer.from(signature), Buffer.from(query.signature)) && +query.expires > Date.now()
 }
 
+// hiddin proprieties from user 
+
 userSchema.set('toJSON', {
   transform: (doc, { __v, password, ...rest }, options) => rest
 })
